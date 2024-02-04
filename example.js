@@ -46,5 +46,24 @@ if(score === 100){
 //     console.log('maaf anda kurang beruntung silahkan coba lagi');
 // }
 
+let isCartFull = false;
+  let isItemAvailable = true;
+
+  if (isCartFull || !isItemAvailable) {
+    console.log("Cannot add more items to the cart.");
+
+  } else {
+    console.log("Item added to the cart successfully.");
+  }
+
+let age = 20; 
+  let isWithinRegion = true;
+
+  if (age >= 18 && isWithinRegion) { 
+    console.log("Access granted.");
+
+  } else {
+    console.log("Access denied.");
+  }
 
 
